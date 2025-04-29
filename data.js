@@ -3,8 +3,8 @@ const furiaData = {
       "FalleN (AWPer)",
       "yuurih (Rifler)",
       "KSCERATO (Entry)",
-      "chelo (Support)",
-      "arT (IGL)"
+    "Yekindar (Support)",
+      "Molodoy (IGL)",
     ],
     proximosJogos: [
       {
