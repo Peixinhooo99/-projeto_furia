@@ -57,7 +57,7 @@ function getBotResponse(message) {
   } else if (message.includes("campeonato") || message.includes("torneio")) {
     return `Estamos participando dos seguintes campeonatos:<br>${furiaData.campeonatos.map(c => `- ${c}`).join("<br>")}`;
   } else if (message.includes("loja")) {
-    return `Confira nossos produtos na loja oficial: <a href="https://loja.furia.gg" target="_blank">loja.furia.gg</a>`;
+    return `Confira nossos produtos na loja oficial: <a href="https://www.furia.gg" target="_blank">loja.furia.gg</a>`;
   } else {
     return "Desculpa, não entendi. estou apto a responder apenas perguntas sobre jogadores, próximos jogos ou campeonatos.";
   }
