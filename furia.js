@@ -14,6 +14,7 @@ function sendMessage() {
   chatBox.scrollTop = chatBox.scrollHeight;
 }
 
+
 const furiaData = {
   jogadores: [
     "FalleN (AWPer)",
@@ -58,6 +59,6 @@ function getBotResponse(message) {
   } else if (message.includes("loja")) {
     return `Confira nossos produtos na loja oficial: <a href="https://loja.furia.gg" target="_blank">loja.furia.gg</a>`;
   } else {
-    return "Desculpa, não entendi. Tente perguntar sobre jogadores, próximos jogos ou campeonatos.";
+    return "Desculpa, não entendi. estou apto a responder apenas perguntas sobre jogadores, próximos jogos ou campeonatos.";
   }
 }
